@@ -1,0 +1,165 @@
+.darkHiveDefaultBackground {
+    background: #1A1A1A; /* Old browsers */
+    background: -moz-linear-gradient(top,  #0A 0%, #0A0A0A 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#1A1A1A), color-stop(100%,#0A0A0A)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  #1A1A1A 0%, #0A0A0A 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  #1A1A1A 0%, #0A0A0A 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  #1A1A1A 0%, #0A0A0A 100%); /* IE10+ */
+    background: linear-gradient(to bottom,  #1A1A1A 0%, #0A0A0A 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#1A1A1A', endColorstr='#0A0A0A', GradientType=0); /* IE6-9 */
+}
+
+.buttonStyle {
+    background: #45484d; /* Old browsers */
+    background: -moz-linear-gradient(top,  #45484d 0%, #000000 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#45484d), color-stop(100%,#000000)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  #45484d 0%,#000000 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  #45484d 0%,#000000 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  #45484d 0%,#000000 100%); /* IE10+ */
+    background: linear-gradient(to bottom,  #45484d 0%,#000000 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#45484d', endColorstr='#000000',GradientType=0 ); /* IE6-9 */
+
+    color: #ccc;
+    padding: 0.5em;
+    border: 2px solid #111111;
+    border-radius: 7px;
+}
+
+.buttonStyle:hover {
+    background: #356aa0; /* Old browsers */
+    background: -moz-linear-gradient(top,  #356aa0 0%, #356aa0 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#356aa0), color-stop(100%,#356aa0)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  #356aa0 0%,#356aa0 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  #356aa0 0%,#356aa0 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  #356aa0 0%,#356aa0 100%); /* IE10+ */
+    background: linear-gradient(to bottom,  #356aa0 0%,#356aa0 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#356aa0', endColorstr='#356aa0',GradientType=0 ); /* IE6-9 */
+}
+
+.buttonStyle:active {
+    background: #006e2e; /* Old browsers */
+    background: -moz-linear-gradient(top,  #006e2e 0%, #006e2e 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#006e2e), color-stop(100%,#006e2e)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  #006e2e 0%,#006e2e 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  #006e2e 0%,#006e2e 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  #006e2e 0%,#006e2e 100%); /* IE10+ */
+    background: linear-gradient(to bottom,  #006e2e 0%,#006e2e 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#006e2e', endColorstr='#006e2e',GradientType=0 ); /* IE6-9 */
+}
+
+#mainHeader {
+    cursor: pointer;
+}
+
+#loginDialog {
+    border: 3px solid #A1A1A1;
+    border-radius: 7px;
+    min-width: 200px;
+    font-family: "caviar_dreamsregular", sans-serif;
+    color: #ccc;
+}
+
+#loginDialog div[title="Close"] {
+    float: right;
+    width: 1em;
+    height: 1em;
+    border: 1px solid #ccc;
+    border-radius: 1em;
+    margin-top: -0.5em;
+    margin-right: -0.5em;
+}
+
+#loginDialog div[title="Close"] div {
+    background: url("../icons/Close.png") repeat;
+    width: 1em;
+    height: 1em;
+}
+
+#loginDialog form label:not(.checkbox) {
+    margin: 1em 3% 5px 3%;
+    font-size: 1.5em;
+}
+
+#loginHeader {
+    color: #a55400;
+    font-family: "chunkfiveroman", serif;
+    font-size: xx-large;
+    padding-bottom: 0.5em;
+    padding-top: 0.5em;
+    padding-left: 0.5em;
+    border-radius: 7px 7px 0 0;
+}
+
+#loginFormAccordion {
+    font-size: 75%;
+}
+
+#loginBody, #forgotPasswordBody form {
+    margin: 0.5em;
+    padding-top: 1em;
+    margin-top: -1em;
+}
+
+#loginValidationTips, #forgotPasswordValidatorTips {
+    color: orange;
+    font-family: sans-serif;
+    margin: 1em;
+}
+
+#forgotPasswordBody form div {
+    margin-top: 1em;
+}
+
+#loginDialog input:not([type="submit"]) {
+    box-sizing: content-box;
+    background-color: #1A1A1A;
+    border: 1px solid #ccc;
+    border-radius: 7px;
+    margin: 5px 3% 5px 3%;
+    width: 90%;
+    height: 2em;
+    color: #A3A3A3;
+    font-size: 1em;
+    font-family: 'caviar_dreamsregular', sans-serif;
+    padding-left: 6px;
+}
+
+input[type="checkbox"] {
+    display:none;
+}
+
+input[type="checkbox"] + label span {
+    display:inline-block;
+    width:19px;
+    height:19px;
+    margin:-1px 4px 0 -5px;
+    vertical-align:middle;
+    background:url("../images/check_radio_sheet.png") left top no-repeat;
+    cursor:pointer;
+}
+
+input[type="checkbox"]:checked + label span {
+    background:url("../images/check_radio_sheet.png") -19px top no-repeat;
+}
+
+#loginDialog form div:last-child {
+    padding: 1em;
+    border-radius: 0 0 7px 7px;
+    padding-bottom: 10px;
+}
+
+#loginSubmitButton {
+    width: 32%;
+    margin-left: 20%;
+    vertical-align: middle;
+}
+
+#forgotPasswordSubmitButton {
+    width: 60%;
+    margin-left: 20%;
+}
+
+/* Configure Navigation */
+#configureNav a {
+    color: #999800;
+}

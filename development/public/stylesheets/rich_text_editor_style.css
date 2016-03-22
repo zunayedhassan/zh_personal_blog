@@ -1,0 +1,353 @@
+/* Default style for RICH TEXT EDITOR */
+.contentStyle {
+    background-color: #2B2B2B;
+    color: #ccc;
+    border: 1px solid #ccc;
+    border-radius: 7px;
+    margin-bottom: 1em;
+    padding: 3px 3px 3px 1em;
+    width: 50%;
+}
+
+#contentTags {
+    width: 98%;
+}
+
+#editTab, #previewTab {
+    font-size: 1em;
+}
+
+#resizable {
+    font-family: consolas, monospace;
+}
+
+#previewArea {
+    background: url('../images/binding_dark.png') repeat;
+    padding: 1em;
+}
+
+#previewArea .content {
+    margin-top: 1em;
+    margin-bottom: 2em;
+}
+
+/* Toolbar */
+#headers {
+    font-size: 1.5em;
+}
+
+#selectHeaders {
+    height: 2.5em;
+}
+
+#insertImageDropDownMenu ul li {
+    font-size: 2.5em;
+}
+
+.toolbarSeparator {
+    margin-left: 1em;
+}
+
+#toolbar {
+    padding: 4px;
+    display: inline-block;
+}
+
+/* support: IE7 */
+*+html #toolbar {
+    display: inline;
+}
+
+/* Toolbar Button */
+#bold .ui-icon-bold {
+    width: 32px;
+    height: 32px;
+    background-image: url("../icons/Text-Bold.png");
+    background-position: -8px -8px;
+}
+
+#italic .ui-icon-italic {
+    width: 32px;
+    height: 32px;
+    background-image: url("../icons/Text-Italic.png");
+    background-position: -8px -8px;
+}
+
+#underline .ui-icon-underline {
+    width: 32px;
+    height: 32px;
+    background-image: url("../icons/Text-Underline.png");
+    background-position: -8px -8px;
+}
+
+#superscript .ui-icon-superscript {
+    width: 32px;
+    height: 32px;
+    background-image: url("../icons/text_superscript.png");
+    background-position: -8px -8px;
+}
+
+#subscript .ui-icon-subscript {
+    width: 32px;
+    height: 32px;
+    background-image: url("../icons/text_subscript.png");
+    background-position: -8px -8px;
+}
+
+#align_left .ui-icon-align-left {
+    width: 32px;
+    height: 32px;
+    background-image: url("../icons/Align-Left.png");
+    background-position: -8px -8px;
+}
+
+#align_center .ui-icon-align-center {
+    width: 32px;
+    height: 32px;
+    background-image: url("../icons/Align-Center.png");
+    background-position: -8px -8px;
+}
+
+#align_right .ui-icon-align-right {
+    width: 32px;
+    height: 32px;
+    background-image: url("../icons/Align-Right.png");
+    background-position: -8px -8px;
+}
+
+#align_justify .ui-icon-align-justify {
+    width: 32px;
+    height: 32px;
+    background-image: url("../icons/Align-Justify.png");
+    background-position: -8px -8px;
+}
+
+#bullet_numbered .ui-icon-bullet-numbered {
+    width: 32px;
+    height: 32px;
+    background-image: url("../icons/Format-Numbering.png");
+    background-position: -8px -8px;
+}
+
+#bullet_not_numbered .ui-icon-bullet-not-numbered {
+    width: 32px;
+    height: 32px;
+    background-image: url("../icons/Format-Bullets-03.png");
+    background-position: -8px -8px;
+}
+
+
+#paragraph .ui-icon-paragraph {
+    width: 32px;
+    height: 32px;
+    background-image: url("../icons/paragraph.png");
+    background-position: -8px -8px;
+}
+
+#insert_blockquote .ui-icon-insert-blockquote {
+    width: 32px;
+    height: 32px;
+    background-image: url("../icons/Single-Curly-Quotation-Marks.png");
+    background-position: -8px -8px;
+}
+
+#table .ui-icon-table {
+    width: 32px;
+    height: 32px;
+    background-image: url("../icons/Table.png");
+    background-position: -8px -8px;
+}
+
+#link .ui-icon-link {
+    width: 32px;
+    height: 32px;
+    background-image: url("../icons/Link.png");
+    background-position: -8px -8px;
+}
+
+#insert_geolocation .ui-icon-insert-geolocation {
+    width: 32px;
+    height: 32px;
+    background-image: url("../icons/Maps.png");
+    background-position: -8px -8px;
+}
+
+#insert_code .ui-icon-insert-code {
+    width: 32px;
+    height: 32px;
+    background-image: url("../icons/Source-Code.png");
+    background-position: -8px -8px;
+}
+
+/* Toolbar Menu */
+.ui-menu {
+    position: absolute;
+    width: 100px;
+}
+
+#headerDropDownMenuButton, #headerDropDownMenu, #insertImageMenu, #smileyDropDownMenuButton, #smileyDropDownMenu, #createNewTableDialogForm, .ui-button-text, .ui-dialog-titlebar, .ui-dialog-buttonpane, #insertNewLinkDialogForm, #insertAnImageDialogForm, #insertPhotoGalleryDialogForm, #insertGeoLocationDialogForm {
+    font-size: 80%;
+    font-family: "Trebuchet MS", "Arial", "Helvetica", "Verdana", "sans-serif";
+}
+
+.tableValidateTips {
+    border: 1px solid transparent;
+    padding: 0.3em;
+}
+
+.toolbarSeparator div, .toolbarSeparator ul {
+    display: inline;
+}
+
+#smileyDropDownMenu tr td:hover {
+    background: #318bc9;
+    border-radius: 0.5em;
+}
+
+/* Removing white border from IE */
+#smileyDropDownMenu td img, #smileyDropDownMenu td a {
+    border: none;
+}
+
+#insertAnImageDialogForm {
+    font-size: 62.5%;
+}
+
+.insertAnImageButtonStyle {
+    width: 100px;
+    margin-left: 35%;
+    margin-top: 10px;
+    border-radius: 0.5em;
+}
+
+#headerDropDownMenuButton, #smileyDropDownMenuButton, #otherToolbarButtons {
+    display: inline-block;
+}
+
+#smiley, #selectSmiley, #insert_image, #selectImage {
+    height: 32px;
+}
+
+#smiley, #insert_image {
+    width: 32px;
+}
+
+#selectImage {
+    width: 22px;
+}
+
+#smiley img, #insert_image img {
+    width: 32px;
+    height: 32px;
+    margin-left: -12px;
+    margin-top: -6px;
+}
+
+#headerDropDownMenu, #insertImageMenu, #smileyDropDownMenu {
+    z-index: 1;
+}
+
+/*
+    DESCRIPTION:    Default Button Style
+    SOURCE:         http://www.colorzilla.com/gradient-editor/
+ */
+.insertAnImageButtonStyle {
+    background: #45484d; /* Old browsers */
+    background: -moz-linear-gradient(top,  #45484d 0%, #000000 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#45484d), color-stop(100%,#000000)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  #45484d 0%,#000000 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  #45484d 0%,#000000 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  #45484d 0%,#000000 100%); /* IE10+ */
+    background: linear-gradient(to bottom,  #45484d 0%,#000000 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#45484d', endColorstr='#000000',GradientType=0 ); /* IE6-9 */
+
+    color: #ccc;
+    padding: 0.5em;
+    border: 2px solid #111111;
+}
+
+.insertAnImageButtonStyle:hover {
+    background: #356aa0; /* Old browsers */
+    background: -moz-linear-gradient(top,  #356aa0 0%, #356aa0 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#356aa0), color-stop(100%,#356aa0)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  #356aa0 0%,#356aa0 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  #356aa0 0%,#356aa0 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  #356aa0 0%,#356aa0 100%); /* IE10+ */
+    background: linear-gradient(to bottom,  #356aa0 0%,#356aa0 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#356aa0', endColorstr='#356aa0',GradientType=0 ); /* IE6-9 */
+}
+
+.insertAnImageButtonStyle:active {
+    background: #006e2e; /* Old browsers */
+    background: -moz-linear-gradient(top,  #006e2e 0%, #006e2e 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#006e2e), color-stop(100%,#006e2e)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  #006e2e 0%,#006e2e 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  #006e2e 0%,#006e2e 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  #006e2e 0%,#006e2e 100%); /* IE10+ */
+    background: linear-gradient(to bottom,  #006e2e 0%,#006e2e 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#006e2e', endColorstr='#006e2e',GradientType=0 ); /* IE6-9 */
+}
+
+/* Preview Area Style */
+#previewArea table, #previewArea th, #previewArea td {
+    border: 1px solid #ccc;
+    border-collapse: collapse;
+}
+
+#previewArea .singleImage {
+    text-align: center;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+#previewArea .singleImage img {
+    max-width: 40%;
+    max-height: 50%;
+    border-radius: 0.5em;
+}
+
+
+.underline { text-decoration: underline; }
+.alignLeft { text-align: left; }
+.alignCenter { text-align: center; }
+.alignRight { text-align: right; }
+.alignJustify { text-align: justify; }
+
+.ui-resizable-se {
+    bottom: 17px;
+}
+
+/* Resizable Text Area Style */
+#resizable {
+    width: 100%;
+    background-color: #2B2B2B;
+    color: #ccc;
+    z-index: 0;
+    border: 1px ridge #ccc;
+    border-radius: 0.5em;
+}
+
+
+/* Dialog Form Style */
+#createNewTableDialogForm label, #createNewTableDialogForm input, #insertNewLinkDialogForm label, #insertNewLinkDialogForm input, #imageLocationLink, #imageUrlLink {
+    display: block;
+}
+
+#createNewTableDialogForm input.text, #insertNewLinkDialogForm input.text, #insertAnImageDialogForm input[type='file'], #insertAnImageDialogForm input[type='text'], #insertAnImageDialogForm input[type='url'], #insertGeoLocationDialogForm input {
+    margin-bottom: 12px;
+    width: 95%;
+    padding: .4em;
+}
+
+fieldset {
+    padding: 0;
+    border: 0;
+    margin-top: 25px;
+}
+
+.ui-dialog .ui-state-error { padding: .3em; }
+
+.tableValidateTips {
+    border: 1px solid transparent;
+    padding: 0.3em;
+}

@@ -1,0 +1,50 @@
+#mainContent article header h2 {
+    color: #3C79D1;
+}
+
+#mainContent article #authorPicture img {
+    border-radius: 2em;
+}
+
+#mainContent .content table {
+    margin: 1em;
+}
+
+#aboutMeTable .aboutMyself {
+    border: none;
+}
+
+#mainContent .content .aboutMyself tr th {
+    text-align: right;
+    color: #ccc;
+    font-weight: normal;
+    border: none;
+}
+
+#mainContent .content .aboutMyself tr td {
+    text-align: left;
+    font-weight: bold;
+    border: none;
+}
+
+h3 {
+    color: #729fcf;
+}
+
+.content #authorPicture, .content .aboutMyself {
+    display: inline-block;
+}
+
+.content p a {
+    text-decoration: none;
+    color: rgba(128, 128, 128, 240);
+}
+
+.content p a:hover {
+    color: orange;
+    text-decoration: underline;
+}
+
+.content .title {
+    color: #ccc;
+}

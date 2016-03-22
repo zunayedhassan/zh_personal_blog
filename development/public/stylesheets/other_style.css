@@ -1,0 +1,91 @@
+.errorStyle header h2 {
+    color: #CC0000;
+}
+
+.fb-like {
+    margin-top: 1em;
+}
+
+.singleImage a, .singleImage img {
+    border: none;
+    text-align: center;
+}
+
+.singleImage {
+    border-radius: 7px;
+}
+
+.singleImage figure {
+    text-align: center;
+}
+
+/* Styles for Manage Account */
+#configureManageAccountOuter {
+    width: 220px;
+    margin-bottom: 2em;
+}
+
+#configureManageAccountOuter form fieldset {
+    border: 1px solid darkgray;
+    border-radius: 7px;
+    padding: 1em;
+}
+
+#configureManageAccountOuter form legend, #configureManageAccountOuter form label, #configureManageAccountOuter form input[type^=password] {
+    display: block;
+    font-family: "caviar_dreamsregular", sans-serif;
+    font-size: large;
+    color: rgba(204, 204, 204, 240);
+}
+
+#configureManageAccountOuter form legend {
+    font-size: medium;
+}
+
+#configureManageAccountOuter form input[type=password] {
+    padding-left: 1em;
+    padding-right: 1em;
+    border: 1px solid grey;
+    background: url("./images/binding_dark.png") repeat;
+    border-radius: 0.5em;
+    width: 180px;
+}
+
+#currentPasswordConfigureInput {
+    margin-bottom: 1.5em;
+}
+
+.validationTipStyle {
+    font-size: x-small;
+    color: orange;
+}
+
+#newPasswordConfigureInput {
+    margin-bottom: 0.5em;
+}
+
+#changePasswordButton {
+    text-align: center;
+}
+
+#changePasswordButton {
+    margin-top: 1em;
+    margin-left: 65px;
+}
+
+#afterChanged {
+    margin-top: 1em;
+}
+
+/* Styles for Blog Article */
+code { 
+    font-size: large;
+}
+
+pre code {
+    font-size: 12pt;
+}
+
+.output {
+    background-color: #1D1F21; padding: 0.5em; margin: 0.5em;
+}

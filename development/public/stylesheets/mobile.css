@@ -1,0 +1,46 @@
+/* General */
+
+#wrapper {
+	margin: 0.5em 2% 0 2%;
+}
+
+/* Layout */
+/* Page Header */
+#mainHeader {
+	width: 100%;
+}
+
+#mainHeader h1 {
+	text-align: center;
+	font-size: 30pt;
+}
+
+#followMe, #searchSection {
+	width: 100%;
+	text-align: center;
+	border-right: none;
+}
+
+#search {
+	float: inherit;
+}
+
+#mainNavigation ul {
+	list-style: inside;
+}
+
+#mainNavigation ul li {
+	text-align: center;
+	display: block;
+	margin-bottom: 10px;
+}
+
+#pageNavigation ul li {
+	display: inline-block;
+  	margin-bottom: 30px;
+}
+
+
+footer section, footer section ul {
+	text-align: center;
+}

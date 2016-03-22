@@ -1,0 +1,18 @@
+SITE NAME:	 https://zunayedhassan.3owl.com
+VERSION:	 1.0.48
+
+AUTHOR:		 Mohammod Zunayed Hassan
+EMAIL:		 zunayed-hassan@live.com
+
+PROJECT STARTED: September 01, 2013
+PROJECT ENDS:	 October   14, 2013  05:11 PM
+LAST MODIFIED:	 October   15, 2013, 01:01 PM
+-------------------------------------------------------------------------------
+
+CHANGES:
+    October 15, 2013, 02:13 AM:  Page header issue for blog.php,
+                                 recent_tour.php, portfolio.php fixed.
+
+    October 15, 2013, 01:01 PM:  New style added on 'other_style.css' for
+                                 inline coding and their background, code
+                                 font-size fixed too.

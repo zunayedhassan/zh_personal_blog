@@ -1,0 +1,115 @@
+/* General */
+
+#wrapper {
+	margin: 1em 5% 0 5%;
+}
+
+/* Page Header */
+
+#mainHeader h1 {
+	text-align: right;
+}
+
+#mainNavigation ul {
+    position: fixed;
+}
+
+#mainNavigation ul li {
+	padding-right: 1em;
+	padding-bottom: 10px;
+}
+
+/* Layout */
+
+/* Layout for pageHeader */
+#mainHeader {
+	float: left;
+        position: fixed;
+}
+
+/* Layout for Search */
+#searchSection {
+	float: right;
+	margin-top: 1em;		/* Fixing (removing) extra border from searchSection */
+}
+
+#searchSection header {
+	margin-top: -1em;
+}
+
+#searchSection form {
+	margin-top: -3px;
+}
+
+/* Layout for Social */
+
+#followMe {
+	float: right;
+}
+
+/* Clearfix for pageHeader */
+#pageHeader:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+/* Layout for mainNavigation, mainContent and pageNavigation */
+#middleContent {
+	display: table-row;
+}
+
+#mainNavigation {
+	min-width: 22em;
+}
+
+#mainNavigation, #mainContent {
+	display: table-cell;
+}
+
+#mainNavigation ul {
+	text-align: right;
+}
+
+/* Fix for Firefox */
+@-moz-document url-prefix() {
+    #mainNavigation ul li:not(:first-child) {
+        margin-top: -10px;
+        width: 4em;
+    }
+    
+    #contentBody header h2:first-child {
+        margin-top: 1.5em;
+    }
+    
+    #aboutMeTable {
+        margin-top: 1em;
+    }
+}
+
+
+#pageNavigation {
+	display: table-row;
+}
+
+
+/* Layout for footer */
+footer section {
+	float: left;
+}
+
+footer section:not(:first-child) {
+	margin-left: 5em;
+}
+
+#backToTop {
+        margin-top: 1em;
+	float: right;
+}
+
+/* Clearfix for footer */
+footer:after {
+	content: "";
+	display: table;
+	clear: both;
+}

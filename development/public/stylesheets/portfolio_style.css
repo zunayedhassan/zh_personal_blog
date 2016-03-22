@@ -1,0 +1,31 @@
+#mainContent article header h2 {
+    color: #573C5C;
+}
+
+#mainContent article img {
+    max-width: 300px;
+    border-radius: 7px;
+    border: 2px solid #ccc;
+}
+
+#mainContent article img:hover {
+    border-color: #573C5C;
+}
+
+.showcaseItem div, .showcaseItem span {
+    float: left;
+}
+
+.showcaseItem span {
+    max-width: 40%;
+}
+
+.showcaseItem:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.showcaseItem:not(:last-child) {
+    border-bottom: 1px groove #ccc;
+}
